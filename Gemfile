@@ -14,7 +14,6 @@ group :jekyll_plugins do
 end
 
 gem "kramdown-parser-gfm", "~> 1.1.0"
-gem 'jekyll-loading-lazy', "~> 0.1.1"
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo", ">= 1", "< 3"
