@@ -12,11 +12,16 @@ layout: default
   </div>
 
   <div id="notes-entry-container">
-    <content>
-      {{ content }}
-      <p>This line appears after every note.</p>
-    </content>
-
+    <div id="post">
+      <div class="inner-header">
+          <span class="dot" style="background-color: #F86158;"></span>
+          <span class="dot" style="background-color: #FBBF2D;"></span>
+          <span class="dot" style="background-color: #2ACB45;"></span>
+      </div>
+      <div class="inner-content">
+         {% include post.html %}
+        </div>
+      </div>
     <side style="font-size: 0.9em">
       <h3 style="margin-bottom: 1em">Notes mentioning this note</h3>
       {% if page.backlinks.size > 0 %}
