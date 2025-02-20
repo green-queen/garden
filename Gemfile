@@ -9,7 +9,10 @@ gem "jekyll-last-modified-at", git: "https://github.com/maximevaillancourt/jekyl
 gem "webrick", "~> 1.9"
 gem "nokogiri"
 
-gem "jekyll-seo-tag", "~> 2.6"
+group :jekyll_plugins do
+  gem "jekyll-feed", "~> 0.12"
+end
+
 gem "kramdown-parser-gfm", "~> 1.1.0"
 gem 'jekyll-loading-lazy', "~> 0.1.1"
 
@@ -17,6 +20,7 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo", ">= 1", "< 3"
   gem "tzinfo-data"
 end
+
 
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
