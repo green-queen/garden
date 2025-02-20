@@ -1,1 +1,9 @@
-This is the footer. Include anything you'd like here, like a link to an <a class="internal-link" href="{{ site.baseurl }}/about">About</a> page.
+<script defer src="{{ '/assets/js/background.js' | prepend: site.baseurl }}"></script>
+<script defer src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+
+    gtag('js', new Date());
+    gtag('config', '{{ site.google_analytics }}');
+</script>
