@@ -3,6 +3,8 @@ title: "Projects & Publications"
 bookmark: true
 layout: page
 thumbnail: "/assets/img/thumbnail/sample.png"
+id: projects
+permalink: /projects.html
 ---
 
 ## Projects
