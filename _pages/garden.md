@@ -2,7 +2,7 @@
 layout: page
 title: Garden
 id: garden
-permalink: /garden.html
+permalink: garden.html
 ---
 
 # Welcome! 🌱
