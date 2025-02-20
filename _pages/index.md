@@ -1,5 +1,5 @@
 ---
-title: Home
+title: ""
 id: home
 layout: page
 permalink: /
