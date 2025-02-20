@@ -1,6 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
   {% include head.html %}
+  <link rel="preload" href="{{ site.profile_img | prepend: site.baseurl }}" as="image">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | prepend: site.baseurl }}">
+      {% if page.thumbnail %}
+          <style>
+              {%- assign check_localasset = page.thumbnail | split:'/' -%}
+              {% if check_localasset[0] == '' %}
+                  .thumbnail {
+                    background-image: url("{{ page.thumbnail | prepend: site.baseurl }}");
+                        }
+                {% else %}
+                    .thumbnail {
+                      background-image: url("{{ page.thumbnail }}");
+                        }
+                {% endif %}
+             </style>
+        {% else %}
+            <style>
+              .thumbnail {
+                 aspect-ratio: auto !important;
+                    }
+              .transbox {
+                  transform: none;
+                  position: relative;
+                  margin: auto;
+                  left: 0;
+                  top: 0;
+                  background: transparent;
+                  font-family: "Caveat", sans-serif;
+                  width: 1px;
+                  height: 1px;
+                  text-align:center;
+                    }
+                .post-header {
+                    text-align:center;
+                    width: 1px;
+                    height: 1px;
+                    }
+                </style>
+        {% endif %}
+     </head>   
   <body>
     <div class="wrapper">
       <main>{{ content }}</main>
