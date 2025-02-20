@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Garden
+title: "Garden"
 id: garden
 permalink: /garden.html
 ---
