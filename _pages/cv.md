@@ -2,7 +2,9 @@
 title: "Abridged Curriculum Vitae"
 thumbnail: "/assets/img/thumbnail/sample.png"
 bookmark: true
+id: cv
 layout: page
+permalink: /cv.html
 ---
 # Kiran A. Mohammadi-Williams
 <hr>
