@@ -2,8 +2,9 @@
 title: My personal soapbox on the web
 thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn2sqEL1d42gP7HLDPq0mOUBdGd3Q0DNy_Gg&s"
 ---
+<p>
 Tags: [[web-building]] [[note-taking]]
-
+</p>
 As someone who has recently become a digital humanist by profession, and has only recently become a developer, and has only recently learned how to code in any significant way, I'm probably not qualified enough for the opinions that follow. And my presumption is not that anyone will want to read this, but more that I may want to read this in the future so that I can remember what my soapbox was and see if it's shifted, lifted, shrunk, or changed as I gain more skills, talk to more people, and learn more things.
 
 I don't like the word self-taught in the sense that the resources I used to learn how code were not in any particular course or dedicated space, but they were still written, laboured upon, and shared by a person consciously somewhere on the web and made accessible to me, for which I'm grateful. I learned quickly that borrowing code from webpages and then trying to work backward to figure out how it came together was a lot more effective for me that following a teleological tutorial. As Vannevar Bush says in his 1940s article [As We May Think](https://worrydream.com/refs/Bush%20-%20As%20We%20May%20Think%20(Life%20Magazine%209-10-1945).pdf), humans don't think in linear, chronological, or teleological arrangements, but rather jump around through associations between memories, words, thoughts, and ideas we've got stored in the ol' noggin'.
