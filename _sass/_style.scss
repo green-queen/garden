@@ -16,14 +16,6 @@ time {
   margin: 0.5em 0 1em;
 }
 
-img {
-  max-width: 100%;
-  display: block;
-  margin: 0 auto;
-  max-height: 75vh;
-  border-radius: $border-radius;
-}
-
 a {
   transition: background 300ms;
   padding: 0 0.1em;
@@ -49,10 +41,6 @@ a {
 *:focus {
   background: #ffe8bc !important;
   color: black !important;
-}
-
-nav {
-  margin: 1em 0 3em;
 }
 
 #notes-entry-container {
@@ -87,6 +75,7 @@ h1, h2, h3, mark {
   margin:0;
   font-family:Helvetica, sans-serif;
 }
+
 mark { background-color:transparent; }
 
 button {
