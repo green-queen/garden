@@ -14,7 +14,8 @@ Here is where I put some of my thoughts, opinions, and notes on topics of intere
 * [The Garden and the Stream: A Technopastoral](https://hapgood.us/2015/10/17/the-garden-and-the-stream-a-technopastoral/) by Mike Caulfield
 
 I don't think I have anything particular exciting or noteworthy to say, but this garden is more for me than anyone else, to have a place to store my more polished thoughts in a way that I can remix and reuse later. My notes are organized by topic below:
-[[notetaking]] [[web-building]]
+[[notetaking]] 
+[[web-building]]
 
 <strong>Recently updated notes</strong>
 
