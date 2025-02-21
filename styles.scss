@@ -57,7 +57,6 @@ input::-webkit-search-results-decoration{
   --pagewidth-desktop:calc(max(min(100vw - #{$sidebarwd} - 2rem, #{$contentwd}), 44rem));
 }
 
-@import "../_sass/normalize";
 @import "../_sass/code";
 @import "../_sass/style";
 @import "navigation";
