@@ -20,8 +20,8 @@ I don't think I have anything particular exciting or noteworthy to say, but this
 </p>
 
 <ul>
-  {% assign recent_notes = site.notes.Tags | sort: "last_modified_at_timestamp" | reverse %}
-  {% for note in recent_notes limit: 5 %}
+  {% assign goog_notes = site.notes.tags | sort: "last_modified_at_timestamp" | reverse %}
+  {% for note in goog_notes limit: 5 %}
     <li>
       {{ note.last_modified_at | date: "%Y-%m-%d" }} — <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a>
     </li>
