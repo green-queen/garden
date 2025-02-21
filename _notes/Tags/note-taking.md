@@ -1,3 +1,4 @@
 ---
 title: notetaking
+layout: note
 ---
