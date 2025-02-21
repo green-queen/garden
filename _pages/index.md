@@ -1,9 +1,7 @@
 ---
 layout: page
 title: "Garden"
-id: garden
 thumbnail: /assets/img/thumbnail/sample.png
-permalink: /garden.html
 bookmark: true
 ---
 
