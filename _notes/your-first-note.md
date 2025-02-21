@@ -1,127 +1,22 @@
 ---
-title: Your first seed
+title: My personal soapbox on the web
+thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn2sqEL1d42gP7HLDPq0mOUBdGd3Q0DNy_Gg&s"
 ---
+Tags: [[web-building]] [[note-taking]]
 
-### Welcome!
+As someone who has recently become a digital humanist by profession, and has only recently become a developer, and has only recently learned how to code in any significant way, I'm probably not qualified enough for the opinions that follow. And my presumption is not that anyone will want to read this, but more that I may want to read this in the future so that I can remember what my soapbox was and see if it's shifted, lifted, shrunk, or changed as I gain more skills, talk to more people, and learn more things.
 
-This is your first note. You'll find it in the [`notes/`](https://github.com/maximevaillancourt/digital-garden-jekyll-template/tree/master/_notes) directory. 
+I don't like the word self-taught in the sense that the resources I used to learn how code were not in any particular course or dedicated space, but they were still written, laboured upon, and shared by a person consciously somewhere on the web and made accessible to me, for which I'm grateful. I learned quickly that borrowing code from webpages and then trying to work backward to figure out how it came together was a lot more effective for me that following a teleological tutorial. As Vannevar Bush says in his 1940s article [[As We May Think]], humans don't think in linear, chronological, or teleological arrangements, but rather jump around through associations between memories, words, thoughts, and ideas we've got stored in the ol' noggin'.
 
-### Link syntax
+I remember the web of the childhood was primary a playground: we went online to play flash games like Run and take weird typing tests with a piano or a guitar, we looked up lots of facts as Wikipedia and went down unguided Wikipedia rabbit holes, we took personality quizzes on which Disney princess we were or how many kids we'd have or what flavour donut we'd be, and we shared all of this with each other through email, huddled physically together around a single screen, or running around the school computer room looking at each other's monitors. I still see remnants of this sometimes: I'll notice that in a big classroom of 30, where there's inevitably someone not paying attention, that person will be playing 2048 on their laptop or sometimes even Wizard 101. But for the most part, our relationship to the web seems to have increasingly become one of "first search syndrome," a condition where we expect to find exactly what we're looking for and nothing else as the first result at the top of the first page after our first search in Google.
 
-To link to another note, you can use multiple syntaxes. The following four use the "double-bracket" notation ([view the Markdown source file](https://github.com/maximevaillancourt/digital-garden-jekyll-template/blob/master/_notes/your-first-note.md#link-syntax) to see the underlying syntax).
+I don't even think I though critically at all about the web until I started to put stuff up there and carve out my own little spaces myself. My father is a software engineer and cybersecurity architect, and while he passed down none of the technical skills to me, he did instil a discomfort with social media that has stuck with me. Twitter, Facebook, and Instagram have never appealed to me, in part because I think they're not quite satisfying enough. I always want more, more behind the photo (what's the story?), more behind the cryptic caption, more writing and less clicking. Selfishly, I want to hear and be heard, and these sites accomplish this for millions of people; just not my cup of tea. My father has been blogging, and is a strong supporter of the personal connections made through blogging, for decades. A select group of people he's never met in person comment on his posts regularly, know about his family and his hobbies, the way he thinks and what he finds interesting, and he in turn knows them from their personal web spaces. They correct each other, share thoughts about life, writing, reading, aquascaping, coffee, photography, and any other number of interests (my dad's got a lot of hobbies). They are friends, commentators, collaborators, and a circle of critical thinkers and editors. The web gives them this connection.
 
-- Using the note title: [[a note about cats]]
-- Using the note's filename: [[cats]]
-- Using the note's title, with a label: [[A note about cats|link to the note about cats using the note title]]
-- Using the note's filename, with a label: [[cats|link to the note about cats using the note's filename]]
+I'm currently prepping for a workshop I'm hoping to teach about the history of Black digital humanities, as a companion or extension of a workshop my colleague and I already teach, "Intro to Black Digital Humanities." In my research on Black digital humanities and its formation and impact, however, I've my experience has been one of "being bogged down today as specialization extends", i.e. finding an overwhelming amount of articles all on highly specific, disparate opinions and topics, without any embedded backlinks or topical connections. It doesn't make sense to me that while I'm doing this research, I can't find a single article that's just "the history of Black DH" or "the history of Black data". Sure, the amalgamated information from various sources is wonderful, but the encyclopaedia entry is really what I needed for this class. As Mike Caulfield puts it in [[The Garden and the Stream- A Technopastoral]]: "Nobody can find good OER on certain subjects," because everyone is so busy being hyperspecific and hyperfocused on individual arguments. I'm a huge defender of Wikipedia in part for this reason, but also because it's gotten a bad rap in academia for reasons that are simply untrue. My school librarians were always on about "Wikipedia is not fact-checked," when in fact Wikipedia is a citation-based, crowd-sourced, peer-reviewed resource and articles that lack any of these elements make that plain. Wikipedia is one of the (if not the number one) most useful, accessible, and robust OER out there, and it behooves us to create more things like it and for it.
 
-You can organize notes in subdirectories and link them normally. For example, the links above all point to the `_notes/animals/cats.md` file. Here's another example: [[tigers]].
+I guess my soapbox also includes the de-structuralization of expertise, in that it scares me to think that we've lost so much potent knowledge by maligning blogs, personal essays, non-academy/institution-supported scholarship as "non-authoritative." I am a librarian, so misinformation and disinformation is not a problem I take lightly or ignore, but I think it's also often used in ways that reinforce a destructive and harmful power structure, one in which you *must* listen to corporation-produced textbooks, subscription material, and Big Academia/Big Tech publications.
 
-Non-latin languages are supported: [[안녕하세요]]; so are accents/diacritics: [[bon appétit!]]
+- The web should be a diverse place filled with diverse thoughts, aesthetics, epistemologies, opinions, resources, pathways, etc.
+	- Web space is real estate, in the sense that claiming it, having it, and using it is **power**.
+- get to know people and build relationships 
 
-Dashes and underscores in file names are supported, and may be omitted in the bracket link syntax. As an example, the `your-first-note.md` file can be linked to with [[your first note]] or [[your-first-note]], or even [[yOuR-FiRsT Note]].
-
-In all cases, if the double-bracket link does not point to a valid note, the double brackets will still be shown, like this: [[there is no note that matches this link]].
-
-Alternatively, you can use regular [Markdown syntax](https://www.markdownguide.org/getting-started/) for links, with a relative link to the other note, like this: [this is a Markdown link to the note about cats](/cats){: .internal-link}. Don't forget to use the `.internal-link` class to make sure the link is styled as an internal link (without the little arrow).
-
-Since the Web is all about HTML, you can always use plain HTML if you want, like this: <a class="internal-link" href="/cats">This is a link to the note about cats with HTML</a>.
-
-Of course, you can also link to external websites, like this: [this is a link to Wikipedia](https://wikipedia.org/). Again, you can use plain HTML if you prefer. Footnotes are also supported and will be treated like internal links.[^1] You can point to other notes in your footnotes.[^2]
-
-[^1]: This is a footnote. For more information about using footnotes, check out the [Markdown Guide](https://www.markdownguide.org/extended-syntax/#footnotes).
-[^2]: This is another footnote that links to the note about [[cats]]. You may also point to [[notes that do not exist]] if you wish.
-
-### Tweet embedding
-
-Note: This behavior is disabled by default for privacy reasons. See "Site configuration" section below to enable it.
-
-You may include a tweet URL on its own line (like below), and it would be replaced with an official Twitter embed if the site configuration demands it.
-
-https://twitter.com/jack/status/20
-
-### Media embedding
-
-You may embed media files within a note using HTML5 media tags. Here's an example for an audio file:
-
-"Jazzy Frenchy" by Benjamin Tissot from bensound.com
-<audio controls>
-  <source src="{{ site.baseurl }}/assets/jazzyfrenchy.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-
-### Site configuration
-
-Some behavior is configurable by tweaking the `_config.yml` file.
-
-**`use_html_extension`**: if you use a static host that doesn't support URLs that don't end with `.html` (such as Neocities), try changing the `use_html_extension` value to `true` in the `_config.yml` file and restart the Jekyll server (or re-build the site). This adds a `.html` extension to note URLs and may resolve issues with links. If you're still having trouble, I recommend using Netlify to host your digital garden: it's free, easy to use, and fully supports this template's features out of the box.
-
-**`open_external_links_in_new_tab`**: when set to `true`, this makes external links open in new tabs. Set to `false` to open all links in the current tab.
-
-**`embed_tweets`**: when set to `true`, tweet URLs on their own lines will be replaced with a Twitter embed. Default value is `false`.
-
-### Automatic bi-directional links
-
-Notice in the "Notes mentioning this note" section that there is another note linking to this note. This is a bi-directional link, and those are automatically created when you create links to other notes.
-
-### Link previews
-
-If you're on a device with mouse support, try hovering your mouse on internal links to preview the notes: [[a note about cats]].
-
-Links that have been previewed will be cached to avoid redundant requests.
-
-### Images and other Markdown goodies
-
-Finally, because you have the full power of Markdown in this template, you can use regular Markdown syntax for various formatting options.
-
-Lists work as expected:
-
-- List element A
-- List element B
-- List element C
-
-1. List element
-2. List element
-3. List element
-
-If you'd like to quote other people, consider using quote blocks:
-
-> Lorem ipsum dolor sit amet
-
-And of course, images look great:
-
-<img src="{{ site.baseurl }}/assets/image.jpg"/>
-
-You can also ==highlight some content== by wrapping it with `==`.
-
-Non-latin languages are supported too: ==你好==, ==안녕하세요==, ==こんにちは==.
-
-### Code syntax highlighting
-
-You can add code blocks with full syntax color highlighting by wrapping code snippet in triple backticks and specifying the type of the code (`js`, `rb`, `sh`, etc.):
-
-```js
-// Here's a bit of JavaScript:
-if (a === b || c == d)
-  console.log('hello!')
-```
-
-```rb
-# And now some Ruby
-def foo(bar)
-  "baz"
-end
-```
-
-```sh
-$ cat /dev/urandom | grep "the answer to life" # shell scripts look nice too
-```
-
-
-### Next steps
-
-This digital garden template is free, open-source, and [available on GitHub here](https://github.com/maximevaillancourt/digital-garden-jekyll-template).
-
-The easiest way to build your own digital garden based on this template is to read this [step-by-step guide explaining how to set this up from scratch](https://maximevaillancourt.com/blog/setting-up-your-own-digital-garden-with-jekyll).
-
-Go forth, have fun, and learn new something every day! ✌️
