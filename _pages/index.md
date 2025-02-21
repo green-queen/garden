@@ -3,6 +3,7 @@ layout: page
 title: "Garden"
 thumbnail: /assets/img/thumbnail/sample.png
 bookmark: true
+permalink: /
 ---
 
 # Welcome! 🌱
