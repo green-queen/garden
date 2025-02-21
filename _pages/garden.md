@@ -2,6 +2,7 @@
 layout: page
 title: "Garden"
 id: garden
+thumbnail: 
 permalink: /garden.html
 ---
 
