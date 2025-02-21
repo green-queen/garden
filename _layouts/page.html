@@ -3,7 +3,6 @@
   <head>
   {% include head.html %}
   <link rel="preload" href="{{ site.profile_img | prepend: site.baseurl }}" as="image">
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | prepend: site.baseurl }}">
       {% if page.thumbnail %}
           <style>
               {%- assign check_localasset = page.thumbnail | split:'/' -%}
