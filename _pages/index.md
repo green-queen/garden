@@ -21,7 +21,7 @@ I don't think I have anything particular exciting or noteworthy to say, but this
 
 <ul>
   {% assign tag_notes = site.notes.Tags %}
-  {% for note in tag_notes limit %}
+  {% for note in tag_notes %}
     <li>
       <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a>
     </li>
