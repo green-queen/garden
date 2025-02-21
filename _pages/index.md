@@ -19,6 +19,7 @@ I don't think I have anything particular exciting or noteworthy to say, but this
 [[web-building]]
 </p>
 
+<strong>Tags</strong>
 <ul>
   {% assign tag_notes = site.notes.Tags %}
   {% for note in tag_notes %}
