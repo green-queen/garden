@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Kiran's garden"
+title: "the garden"
 thumbnail: /assets/img/thumbnail/sample.png
 bookmark: true
 permalink: /
