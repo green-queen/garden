@@ -19,5 +19,7 @@ I guess my soapbox also includes the de-structuralization of expertise, in that 
 
 - The web should be a diverse place filled with diverse thoughts, aesthetics, epistemologies, opinions, resources, pathways, etc.
 	- Web space is real estate, in the sense that claiming it, having it, and using it is **power**.
-- get to know people and build relationships 
+ 	- Web-building shouldn't be a process of just constructing identical cookie-cutter houses or high-rise condos, but of rambling cottages and shacks mixed into these highly architecturally-curated spaces.
+- The web should be a place where people can get to know one another, create communities, and build genuine relationships
+- The web should be used in the service of the most possible human good. Ameliorating suffering, increasing access, and preventing harm rather than creating it.
 
