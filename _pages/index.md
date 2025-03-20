@@ -15,7 +15,7 @@ Here is where I put some of my thoughts, opinions, and notes on topics of intere
 
 I don't think I have anything particular exciting or noteworthy to say, but this garden is more for me than anyone else, to have a place to store my more polished thoughts in a way that I can remix and reuse later. My notes are organized by topic below:
 <ul>
-[[black-people]] [[data]] [[dh]] [[history]] [[notetaking]] [[web-building]]
+[[data]] [[dh]] [[notetaking]] [[web-building]]
 </ul>
 
 <strong>Recently updated notes</strong>
