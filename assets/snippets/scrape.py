@@ -44,8 +44,8 @@ def scrape_images(url, folder):
     except requests.exceptions.RequestException as e:
         print(f"Error scraping {url}: {e}")
 
-# URL of the page to scrape
-page_url = 'https://www.antiquepatternlibrary.org/html/warm/G-YS001.htm'
+# URL of the page to scrape; add your URL in between the single quotation marks
+page_url = ''
 # Folder to store images
 folder_name = 'Downloads'
 
